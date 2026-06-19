@@ -4,7 +4,6 @@ Initial technical blog
 **Autor:** Agustín García  
 **Fecha:** Junio 2026
 
----
 
 # Contexto
 
@@ -14,7 +13,6 @@ Para gestionar el desarrollo se utilizó **GitHub** como sistema de control de v
 
 Aunque el incidente no afectó usuarios finales, permitió realizar un análisis post-mortem orientado a identificar la causa raíz del problema y establecer mejoras para futuros despliegues.
 
----
 
 # Problema
 
@@ -31,7 +29,6 @@ Después de revisar los registros del sistema se identificó que una variable de
 
 Como consecuencia, la aplicación iniciaba correctamente, pero fallaba al intentar acceder a la base de datos para validar las credenciales de los usuarios.
 
----
 
 # Análisis Post-Mortem
 
@@ -52,7 +49,6 @@ Además, el equipo no disponía de un checklist que permitiera comprobar element
 
 La ausencia de estas verificaciones permitió que el error llegara al entorno de pruebas.
 
----
 
 # Acciones realizadas
 
@@ -71,7 +67,6 @@ Posteriormente se implementaron acciones preventivas para disminuir la probabili
 - Actualización de la documentación técnica.
 - Mejora del proceso de revisión de cambios.
 
----
 
 # Evidencia del uso de control de versiones
 
@@ -87,7 +82,6 @@ Los commits realizados fueron:
 
 El uso de mensajes claros permitió mantener la trazabilidad de cada modificación y facilitar la comprensión del historial del proyecto.
 
----
 
 # Aprendizajes
 
@@ -103,7 +97,6 @@ Los principales aprendizajes obtenidos fueron:
 
 Más allá de resolver el problema, el proceso permitió mejorar las prácticas de documentación, revisión y despliegue del proyecto.
 
----
 
 # Reflexión sobre el feedback radicalmente sincero
 
@@ -113,7 +106,6 @@ La discusión se centró en comprender las causas del problema y en identificar 
 
 Este enfoque favoreció un ambiente de confianza, permitió compartir diferentes puntos de vista y facilitó la implementación de mejoras tanto técnicas como organizacionales.
 
----
 
 # Conclusión
 
